@@ -19,6 +19,32 @@
     "navigationBarBackgroundColor": "#C00000",
     "backgroundColor": "#FFFFFF"
   },
+  
+   "subPackages": [
+      {
+        "root": "subpkg",
+        "pages": [{
+                    "path" : "goods_detail/goods_detail",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "goods_list/goods_list",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+            ]
+      }
+    ],
+  
   "tabBar": {
     "selectedColor": "#C00000",
     "list": [{
@@ -38,7 +64,7 @@
         "text": "购物车",
         "iconPath": "static/tab_icons/cart.png",
         "selectedIconPath": "static/tab_icons/cart-active.png"
-      },
+     },
       {
         "pagePath": "pages/my/my",
         "text": "我的",
